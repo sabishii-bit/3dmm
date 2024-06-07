@@ -1,0 +1,28 @@
+﻿  Camera.cpp
+  CoordinateAxes.cpp
+  CheckeredPlane.cpp
+  GUI.cpp
+  IDGenerator.cpp
+  InputHandler.cpp
+  main.cpp
+  Object3D.cpp
+  ObjectFactory.cpp
+  Renderer.cpp
+W:\Repo\Visual Studio\3dmm\3DMM\Renderer.cpp(96,62): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+W:\Repo\Visual Studio\3dmm\3DMM\Renderer.cpp(110,71): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Cube.cpp
+  Pyramid.cpp
+  Sphere.cpp
+W:\Repo\Visual Studio\3dmm\3DMM\Sphere.cpp(15,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+W:\Repo\Visual Studio\3dmm\3DMM\Sphere.cpp(16,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+W:\Repo\Visual Studio\3dmm\3DMM\Sphere.cpp(21,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  WindowManager.cpp
+W:\Repo\Visual Studio\3dmm\3DMM\WindowManager.cpp(111,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating code
+  907 of 1224 functions (74.1%) were compiled, the rest were copied from previous compilation.
+    511 functions were new in current compilation
+    71 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  3DMM.vcxproj -> W:\Repo\Visual Studio\3dmm\3DMM\x64\Release\3DMM.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

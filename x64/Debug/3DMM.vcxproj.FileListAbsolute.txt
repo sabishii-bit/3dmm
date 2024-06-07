@@ -1,0 +1,3 @@
+W:\Repo\Visual Studio\3dmm\3DMM\x64\Debug\3DMM.exe
+W:\Repo\Visual Studio\3dmm\3DMM\x64\Debug\3DMM.vcxproj.CopyComplete
+W:\Repo\Visual Studio\3dmm\3DMM\x64\Debug\glfw3.dll

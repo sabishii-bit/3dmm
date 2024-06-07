@@ -1,0 +1,4 @@
+W:\Repo\Visual Studio\3dmm\3DMM\x64\Release\3DMM.vcxproj.CopyComplete
+W:\Repo\Visual Studio\3dmm\3DMM\x64\Release\3DMM.exe
+W:\Repo\Visual Studio\3dmm\3DMM\x64\Release\glew32.dll
+W:\Repo\Visual Studio\3dmm\3DMM\x64\Release\glfw3.dll
