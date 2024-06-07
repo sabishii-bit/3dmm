@@ -1,0 +1,10 @@
+{
+  "name": "3dmm",
+  "version": "1.0.0",
+  "dependencies": [
+    "glm",
+    "glew",
+    "imgui",
+    "glfw3"
+  ]
+}
