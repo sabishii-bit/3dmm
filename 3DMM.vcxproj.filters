@@ -9,121 +9,78 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="Source Files\Engine">
-      <UniqueIdentifier>{a9f6dde1-1b27-49fd-b8cb-342a734157ec}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Utilities">
-      <UniqueIdentifier>{e4f8c355-537a-46dd-b671-797429749f14}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Engine">
-      <UniqueIdentifier>{974ab8f1-f964-4297-b8a8-e4305737c5fa}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Utilities">
-      <UniqueIdentifier>{bcf781f9-905b-4e60-872c-822fe2f96ac3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Utilities\Shapes">
-      <UniqueIdentifier>{02de81ad-518a-412b-941f-cb95818e5373}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Input">
-      <UniqueIdentifier>{e3b37216-766d-4f32-bf52-51c6634b25c5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Input">
-      <UniqueIdentifier>{128e6b44-b56b-46a7-81b2-a47aca9a9acb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Input\UserInterface">
-      <UniqueIdentifier>{8e1263a3-db6b-4600-bc5b-f790b43f592d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Input\UserInterface">
-      <UniqueIdentifier>{eca7e4fa-8623-4123-843f-bed94a970e82}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Input\UserInterface\UIElements">
-      <UniqueIdentifier>{3788ed4a-e46c-4bc9-9cfd-7757664bace6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Input\UserInterface\UIElements">
-      <UniqueIdentifier>{0969f215-b764-4960-a9d3-dcfb8666939f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Utilities\IDGenerator">
-      <UniqueIdentifier>{e2b58b92-fc65-4cbc-a354-6164b489a5f9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Utilities\IDGenerator">
-      <UniqueIdentifier>{1741165f-57b3-4484-8d0c-0dba6aeb9672}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\cpp\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="WindowManager.cpp">
-      <Filter>Source Files\Engine</Filter>
+    <ClCompile Include="src\cpp\WindowManager.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Renderer.cpp">
-      <Filter>Source Files\Engine</Filter>
+    <ClCompile Include="src\cpp\Renderer.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Object3D.cpp">
-      <Filter>Source Files\Utilities</Filter>
+    <ClCompile Include="src\cpp\Object3D.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ObjectFactory.cpp">
-      <Filter>Source Files\Utilities</Filter>
+    <ClCompile Include="src\cpp\ObjectFactory.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Cube.cpp">
-      <Filter>Source Files\Utilities\Shapes</Filter>
+    <ClCompile Include="src\cpp\Cube.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Pyramid.cpp">
-      <Filter>Source Files\Utilities\Shapes</Filter>
+    <ClCompile Include="src\cpp\Pyramid.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ShaderManager.cpp">
-      <Filter>Source Files\Utilities</Filter>
+    <ClCompile Include="src\cpp\ShaderManager.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Camera.cpp">
-      <Filter>Source Files\Engine</Filter>
+    <ClCompile Include="src\cpp\Camera.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="InputHandler.cpp">
-      <Filter>Source Files\Input</Filter>
+    <ClCompile Include="src\cpp\InputHandler.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="IDGenerator.cpp">
-      <Filter>Source Files\Utilities\IDGenerator</Filter>
+    <ClCompile Include="src\cpp\IDGenerator.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GUI.cpp">
-      <Filter>Source Files\Input\UserInterface</Filter>
+    <ClCompile Include="src\cpp\GUI.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CoordinateAxes.cpp">
-      <Filter>Source Files\Utilities\Shapes</Filter>
+    <ClCompile Include="src\cpp\CoordinateAxes.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CheckeredPlane.cpp">
-      <Filter>Source Files\Utilities\Shapes</Filter>
+    <ClCompile Include="src\cpp\CheckeredPlane.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sphere.cpp">
-      <Filter>Source Files\Utilities\Shapes</Filter>
+    <ClCompile Include="src\cpp\Sphere.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="WindowManager.h">
-      <Filter>Header Files\Engine</Filter>
+    <ClInclude Include="src\h\WindowManager.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Renderer.h">
-      <Filter>Header Files\Engine</Filter>
+    <ClInclude Include="src\h\Renderer.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GraphicsObjects.h">
-      <Filter>Header Files\Utilities</Filter>
+    <ClInclude Include="src\h\GraphicsObjects.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ShaderManager.h">
-      <Filter>Header Files\Utilities</Filter>
+    <ClInclude Include="src\h\ShaderManager.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Camera.h">
-      <Filter>Header Files\Engine</Filter>
+    <ClInclude Include="src\h\Camera.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="InputHandler.h">
-      <Filter>Header Files\Input</Filter>
+    <ClInclude Include="src\h\InputHandler.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="IDGenerator.h">
-      <Filter>Header Files\Utilities\IDGenerator</Filter>
+    <ClInclude Include="src\h\IDGenerator.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GUI.h">
-      <Filter>Header Files\Input\UserInterface</Filter>
+    <ClInclude Include="src\h\GUI.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

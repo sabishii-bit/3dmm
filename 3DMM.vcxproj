@@ -123,6 +123,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>src/h</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -132,31 +133,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Camera.cpp" />
-    <ClCompile Include="CoordinateAxes.cpp" />
-    <ClCompile Include="CheckeredPlane.cpp" />
-    <ClCompile Include="GUI.cpp" />
-    <ClCompile Include="IDGenerator.cpp" />
-    <ClCompile Include="InputHandler.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Object3D.cpp" />
-    <ClCompile Include="ObjectFactory.cpp" />
-    <ClCompile Include="Renderer.cpp" />
-    <ClCompile Include="Cube.cpp" />
-    <ClCompile Include="Pyramid.cpp" />
-    <ClCompile Include="ShaderManager.cpp" />
-    <ClCompile Include="Sphere.cpp" />
-    <ClCompile Include="WindowManager.cpp" />
+    <ClCompile Include="src\cpp\Camera.cpp" />
+    <ClCompile Include="src\cpp\CoordinateAxes.cpp" />
+    <ClCompile Include="src\cpp\CheckeredPlane.cpp" />
+    <ClCompile Include="src\cpp\GUI.cpp" />
+    <ClCompile Include="src\cpp\IDGenerator.cpp" />
+    <ClCompile Include="src\cpp\InputHandler.cpp" />
+    <ClCompile Include="src\cpp\main.cpp" />
+    <ClCompile Include="src\cpp\Object3D.cpp" />
+    <ClCompile Include="src\cpp\ObjectFactory.cpp" />
+    <ClCompile Include="src\cpp\Renderer.cpp" />
+    <ClCompile Include="src\cpp\Cube.cpp" />
+    <ClCompile Include="src\cpp\Pyramid.cpp" />
+    <ClCompile Include="src\cpp\ShaderManager.cpp" />
+    <ClCompile Include="src\cpp\Sphere.cpp" />
+    <ClCompile Include="src\cpp\WindowManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Camera.h" />
-    <ClInclude Include="GraphicsObjects.h" />
-    <ClInclude Include="GUI.h" />
-    <ClInclude Include="IDGenerator.h" />
-    <ClInclude Include="InputHandler.h" />
-    <ClInclude Include="Renderer.h" />
-    <ClInclude Include="ShaderManager.h" />
-    <ClInclude Include="WindowManager.h" />
+    <ClInclude Include="src\h\Camera.h" />
+    <ClInclude Include="src\h\GraphicsObjects.h" />
+    <ClInclude Include="src\h\GUI.h" />
+    <ClInclude Include="src\h\IDGenerator.h" />
+    <ClInclude Include="src\h\InputHandler.h" />
+    <ClInclude Include="src\h\Renderer.h" />
+    <ClInclude Include="src\h\ShaderManager.h" />
+    <ClInclude Include="src\h\WindowManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
