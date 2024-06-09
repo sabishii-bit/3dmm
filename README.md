@@ -2,6 +2,10 @@
 
 Made as a fun little assignment for myself. Might continue support, might not, who knows.
 
+### Requirements
+
+Windows 10, vcpkg
+
 ### Installing Dependencies
 
 Ensure vcpkg is installed and added to user's PATH. Run these commands in the root of the project.
