@@ -4,7 +4,7 @@ Made as a fun little assignment for myself. Might continue support, might not, w
 
 ### Requirements
 
-Windows 10, vcpkg
+Windows 10, vcpkg, dependencies listed under vcpkg.json
 
 ### Installing Dependencies
 
