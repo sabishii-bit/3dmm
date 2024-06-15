@@ -24,11 +24,11 @@ set VCPKG_ROOT=C:\path\to\vcpkg
 export VCPKG_ROOT=/path/to/vcpkg
 ```
 
-Generate build directory and build files using CMake and building:
+Generate build directory and build files using CMake, and then build the project:
 ```
 mkdir build
 cd build
-cmake .. -DCMAKE_TOOLCHAIN_FILE=$VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake
+cmake ..
 cmake --build .
 ```
 

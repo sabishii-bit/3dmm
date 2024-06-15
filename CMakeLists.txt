@@ -1,4 +1,12 @@
 cmake_minimum_required(VERSION 3.15)
+
+# Set the vcpkg toolchain file before the project command
+if(NOT DEFINED VCPKG_ROOT)
+    message(FATAL_ERROR "VCPKG_ROOT is not set. Please set it to the vcpkg installation directory.")
+endif()
+
+set(CMAKE_TOOLCHAIN_FILE "${VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake" CACHE STRING "Vcpkg toolchain file")
+
 project(3dmm)
 
 set(CMAKE_CXX_STANDARD 17)
@@ -10,9 +18,6 @@ file(GLOB_RECURSE HEADERS src/h/*.h)
 
 # Create the executable
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
-
-# Set the vcpkg toolchain file
-set(CMAKE_TOOLCHAIN_FILE "${VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake" CACHE STRING "Vcpkg toolchain file")
 
 # Find and link libraries using vcpkg context
 find_package(glm CONFIG REQUIRED)
