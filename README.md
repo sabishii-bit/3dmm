@@ -14,7 +14,7 @@ Ensure vcpkg is added to your system's PATH variables, then run the install comm
 vcpkg install
 ```
 
-Ensure VCPKG_ROOT enviornment variable is set:
+Ensure VCPKG_ROOT environment variable is set:
 
 ```
 # Windows
