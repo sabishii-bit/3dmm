@@ -157,7 +157,7 @@ void GUI::ToolbarComponent()
 
     ImGui::Text("Select Shape");
     ImGui::Spacing();
-    addDropdown("", shapes, currentShape);
+    addDropdown("##dropdown", shapes, currentShape);
 
     if (addButton("Place Object")) {
         Renderer::getInstance().createAndAddObject(shapes[currentShape]);

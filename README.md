@@ -4,7 +4,9 @@ Made as a fun little assignment for myself. Might continue support, might not, w
 
 ### Requirements
 
-vcpkg, CMake, C++17 compiler
+- vcpkg
+- CMake
+- C++17 compiler
 
 ### Installing Dependencies and Building
 
@@ -14,14 +16,20 @@ Ensure vcpkg is added to your system's PATH variables, then run the install comm
 vcpkg install
 ```
 
-Ensure VCPKG_ROOT environment variable is set:
+Ensure VCPKG_ROOT and VCPKG_DEFAULT_TRIPLET environment variables are set:
 
 ```
 # Windows
 set VCPKG_ROOT=C:\path\to\vcpkg
+set VCPKG_DEFAULT_TRIPLET=x64-windows
 
-# Linux/MacOS
+# Linux
 export VCPKG_ROOT=/path/to/vcpkg
+export VCPKG_DEFAULT_TRIPLET=x64-linux
+
+# macOS
+export VCPKG_ROOT=/path/to/vcpkg
+export VCPKG_DEFAULT_TRIPLET=x64-osx
 ```
 
 Generate build directory and build files using CMake, and then build the project:
